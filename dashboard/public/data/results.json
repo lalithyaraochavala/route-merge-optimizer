@@ -47,6 +47,2080 @@
       "trips_saved": 895
     }
   ],
-  "generated_at": "2026-07-21T20:07:35.271842+00:00",
+  "zone_strategies": [
+    {
+      "zone_id": "metropolitian-10.0_76.2",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 6,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "metropolitian-10.0_76.4",
+      "trips_after": {
+        "baseline": 57,
+        "customer": 54,
+        "proximity": 54
+      }
+    },
+    {
+      "zone_id": "metropolitian-10.2_76.4",
+      "trips_after": {
+        "baseline": 15,
+        "customer": 15,
+        "proximity": 12
+      }
+    },
+    {
+      "zone_id": "metropolitian-11.0_77.0",
+      "trips_after": {
+        "baseline": 241,
+        "customer": 237,
+        "proximity": 226
+      }
+    },
+    {
+      "zone_id": "metropolitian-11.0_77.2",
+      "trips_after": {
+        "baseline": 9,
+        "customer": 8,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "metropolitian-11.2_77.0",
+      "trips_after": {
+        "baseline": 63,
+        "customer": 63,
+        "proximity": 54
+      }
+    },
+    {
+      "zone_id": "metropolitian-11.2_77.2",
+      "trips_after": {
+        "baseline": 51,
+        "customer": 50,
+        "proximity": 37
+      }
+    },
+    {
+      "zone_id": "metropolitian-12.2_76.6",
+      "trips_after": {
+        "baseline": 18,
+        "customer": 17,
+        "proximity": 14
+      }
+    },
+    {
+      "zone_id": "metropolitian-12.4_76.6",
+      "trips_after": {
+        "baseline": 190,
+        "customer": 186,
+        "proximity": 173
+      }
+    },
+    {
+      "zone_id": "metropolitian-12.4_76.8",
+      "trips_after": {
+        "baseline": 145,
+        "customer": 143,
+        "proximity": 126
+      }
+    },
+    {
+      "zone_id": "metropolitian-13.0_77.6",
+      "trips_after": {
+        "baseline": 184,
+        "customer": 176,
+        "proximity": 162
+      }
+    },
+    {
+      "zone_id": "metropolitian-13.0_77.8",
+      "trips_after": {
+        "baseline": 157,
+        "customer": 150,
+        "proximity": 139
+      }
+    },
+    {
+      "zone_id": "metropolitian-13.0_80.2",
+      "trips_after": {
+        "baseline": 136,
+        "customer": 129,
+        "proximity": 123
+      }
+    },
+    {
+      "zone_id": "metropolitian-13.0_80.4",
+      "trips_after": {
+        "baseline": 82,
+        "customer": 78,
+        "proximity": 60
+      }
+    },
+    {
+      "zone_id": "metropolitian-13.2_77.6",
+      "trips_after": {
+        "baseline": 27,
+        "customer": 25,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "metropolitian-13.2_77.8",
+      "trips_after": {
+        "baseline": 33,
+        "customer": 30,
+        "proximity": 19
+      }
+    },
+    {
+      "zone_id": "metropolitian-13.2_80.2",
+      "trips_after": {
+        "baseline": 73,
+        "customer": 65,
+        "proximity": 50
+      }
+    },
+    {
+      "zone_id": "metropolitian-13.2_80.4",
+      "trips_after": {
+        "baseline": 134,
+        "customer": 124,
+        "proximity": 116
+      }
+    },
+    {
+      "zone_id": "metropolitian-15.2_74.0",
+      "trips_after": {
+        "baseline": 13,
+        "customer": 12,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "metropolitian-15.4_74.0",
+      "trips_after": {
+        "baseline": 12,
+        "customer": 10,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "metropolitian-15.6_73.8",
+      "trips_after": {
+        "baseline": 49,
+        "customer": 48,
+        "proximity": 46
+      }
+    },
+    {
+      "zone_id": "metropolitian-15.6_74.0",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 8,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "metropolitian-15.8_73.8",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "metropolitian-17.4_78.4",
+      "trips_after": {
+        "baseline": 169,
+        "customer": 158,
+        "proximity": 145
+      }
+    },
+    {
+      "zone_id": "metropolitian-17.4_78.6",
+      "trips_after": {
+        "baseline": 56,
+        "customer": 45,
+        "proximity": 36
+      }
+    },
+    {
+      "zone_id": "metropolitian-17.6_78.4",
+      "trips_after": {
+        "baseline": 110,
+        "customer": 108,
+        "proximity": 93
+      }
+    },
+    {
+      "zone_id": "metropolitian-17.6_78.6",
+      "trips_after": {
+        "baseline": 105,
+        "customer": 97,
+        "proximity": 81
+      }
+    },
+    {
+      "zone_id": "metropolitian-18.6_73.8",
+      "trips_after": {
+        "baseline": 138,
+        "customer": 134,
+        "proximity": 121
+      }
+    },
+    {
+      "zone_id": "metropolitian-18.6_74.0",
+      "trips_after": {
+        "baseline": 192,
+        "customer": 188,
+        "proximity": 179
+      }
+    },
+    {
+      "zone_id": "metropolitian-18.8_73.8",
+      "trips_after": {
+        "baseline": 31,
+        "customer": 26,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "metropolitian-18.8_74.0",
+      "trips_after": {
+        "baseline": 21,
+        "customer": 20,
+        "proximity": 15
+      }
+    },
+    {
+      "zone_id": "metropolitian-19.0_72.8",
+      "trips_after": {
+        "baseline": 72,
+        "customer": 70,
+        "proximity": 62
+      }
+    },
+    {
+      "zone_id": "metropolitian-19.0_73.0",
+      "trips_after": {
+        "baseline": 33,
+        "customer": 26,
+        "proximity": 21
+      }
+    },
+    {
+      "zone_id": "metropolitian-19.2_72.8",
+      "trips_after": {
+        "baseline": 124,
+        "customer": 114,
+        "proximity": 104
+      }
+    },
+    {
+      "zone_id": "metropolitian-19.2_73.0",
+      "trips_after": {
+        "baseline": 146,
+        "customer": 144,
+        "proximity": 130
+      }
+    },
+    {
+      "zone_id": "metropolitian-19.4_72.8",
+      "trips_after": {
+        "baseline": 17,
+        "customer": 15,
+        "proximity": 13
+      }
+    },
+    {
+      "zone_id": "metropolitian-19.4_73.0",
+      "trips_after": {
+        "baseline": 56,
+        "customer": 51,
+        "proximity": 43
+      }
+    },
+    {
+      "zone_id": "metropolitian-19.4_73.2",
+      "trips_after": {
+        "baseline": 18,
+        "customer": 18,
+        "proximity": 16
+      }
+    },
+    {
+      "zone_id": "metropolitian-19.8_75.4",
+      "trips_after": {
+        "baseline": 12,
+        "customer": 11,
+        "proximity": 11
+      }
+    },
+    {
+      "zone_id": "metropolitian-20.0_75.4",
+      "trips_after": {
+        "baseline": 46,
+        "customer": 46,
+        "proximity": 42
+      }
+    },
+    {
+      "zone_id": "metropolitian-20.0_75.6",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "metropolitian-21.2_72.8",
+      "trips_after": {
+        "baseline": 278,
+        "customer": 269,
+        "proximity": 264
+      }
+    },
+    {
+      "zone_id": "metropolitian-21.2_73.0",
+      "trips_after": {
+        "baseline": 43,
+        "customer": 38,
+        "proximity": 34
+      }
+    },
+    {
+      "zone_id": "metropolitian-21.4_73.0",
+      "trips_after": {
+        "baseline": 33,
+        "customer": 31,
+        "proximity": 21
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.4_73.2",
+      "trips_after": {
+        "baseline": 167,
+        "customer": 163,
+        "proximity": 153
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.4_73.4",
+      "trips_after": {
+        "baseline": 20,
+        "customer": 17,
+        "proximity": 15
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.6_75.8",
+      "trips_after": {
+        "baseline": 9,
+        "customer": 8,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.6_76.0",
+      "trips_after": {
+        "baseline": 21,
+        "customer": 19,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.6_88.4",
+      "trips_after": {
+        "baseline": 64,
+        "customer": 61,
+        "proximity": 60
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.6_88.6",
+      "trips_after": {
+        "baseline": 11,
+        "customer": 11,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.8_75.8",
+      "trips_after": {
+        "baseline": 35,
+        "customer": 34,
+        "proximity": 27
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.8_76.0",
+      "trips_after": {
+        "baseline": 295,
+        "customer": 288,
+        "proximity": 278
+      }
+    },
+    {
+      "zone_id": "metropolitian-22.8_88.6",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "metropolitian-23.2_77.4",
+      "trips_after": {
+        "baseline": 34,
+        "customer": 31,
+        "proximity": 29
+      }
+    },
+    {
+      "zone_id": "metropolitian-23.2_77.6",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 7,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "metropolitian-23.4_77.4",
+      "trips_after": {
+        "baseline": 15,
+        "customer": 13,
+        "proximity": 10
+      }
+    },
+    {
+      "zone_id": "metropolitian-23.4_77.6",
+      "trips_after": {
+        "baseline": 16,
+        "customer": 16,
+        "proximity": 15
+      }
+    },
+    {
+      "zone_id": "metropolitian-23.4_85.4",
+      "trips_after": {
+        "baseline": 246,
+        "customer": 239,
+        "proximity": 228
+      }
+    },
+    {
+      "zone_id": "metropolitian-23.6_85.4",
+      "trips_after": {
+        "baseline": 30,
+        "customer": 26,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "metropolitian-23.6_85.6",
+      "trips_after": {
+        "baseline": 18,
+        "customer": 16,
+        "proximity": 15
+      }
+    },
+    {
+      "zone_id": "metropolitian-25.4_81.8",
+      "trips_after": {
+        "baseline": 18,
+        "customer": 18,
+        "proximity": 17
+      }
+    },
+    {
+      "zone_id": "metropolitian-25.4_82.0",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "metropolitian-25.6_81.8",
+      "trips_after": {
+        "baseline": 12,
+        "customer": 9,
+        "proximity": 9
+      }
+    },
+    {
+      "zone_id": "metropolitian-25.6_82.0",
+      "trips_after": {
+        "baseline": 35,
+        "customer": 34,
+        "proximity": 31
+      }
+    },
+    {
+      "zone_id": "metropolitian-26.4_80.4",
+      "trips_after": {
+        "baseline": 12,
+        "customer": 12,
+        "proximity": 9
+      }
+    },
+    {
+      "zone_id": "metropolitian-26.6_80.4",
+      "trips_after": {
+        "baseline": 54,
+        "customer": 54,
+        "proximity": 52
+      }
+    },
+    {
+      "zone_id": "metropolitian-26.6_80.6",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 6,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "metropolitian-26.8_75.8",
+      "trips_after": {
+        "baseline": 40,
+        "customer": 38,
+        "proximity": 32
+      }
+    },
+    {
+      "zone_id": "metropolitian-26.8_76.0",
+      "trips_after": {
+        "baseline": 28,
+        "customer": 25,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "metropolitian-27.0_75.8",
+      "trips_after": {
+        "baseline": 244,
+        "customer": 235,
+        "proximity": 223
+      }
+    },
+    {
+      "zone_id": "metropolitian-27.0_76.0",
+      "trips_after": {
+        "baseline": 83,
+        "customer": 80,
+        "proximity": 76
+      }
+    },
+    {
+      "zone_id": "metropolitian-27.2_78.0",
+      "trips_after": {
+        "baseline": 33,
+        "customer": 31,
+        "proximity": 28
+      }
+    },
+    {
+      "zone_id": "metropolitian-27.2_78.2",
+      "trips_after": {
+        "baseline": 28,
+        "customer": 27,
+        "proximity": 22
+      }
+    },
+    {
+      "zone_id": "metropolitian-27.4_78.2",
+      "trips_after": {
+        "baseline": 9,
+        "customer": 9,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "metropolitian-30.4_78.0",
+      "trips_after": {
+        "baseline": 16,
+        "customer": 16,
+        "proximity": 14
+      }
+    },
+    {
+      "zone_id": "metropolitian-30.4_78.2",
+      "trips_after": {
+        "baseline": 37,
+        "customer": 35,
+        "proximity": 33
+      }
+    },
+    {
+      "zone_id": "metropolitian-30.6_78.2",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "metropolitian-30.8_75.8",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "metropolitian-31.0_75.8",
+      "trips_after": {
+        "baseline": 44,
+        "customer": 42,
+        "proximity": 39
+      }
+    },
+    {
+      "zone_id": "metropolitian-31.0_76.0",
+      "trips_after": {
+        "baseline": 29,
+        "customer": 28,
+        "proximity": 26
+      }
+    },
+    {
+      "zone_id": "other-10.0_76.2",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-10.0_76.4",
+      "trips_after": {
+        "baseline": 10,
+        "customer": 7,
+        "proximity": 6
+      }
+    },
+    {
+      "zone_id": "other-10.2_76.4",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-11.0_77.0",
+      "trips_after": {
+        "baseline": 41,
+        "customer": 35,
+        "proximity": 27
+      }
+    },
+    {
+      "zone_id": "other-11.0_77.2",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-11.2_77.0",
+      "trips_after": {
+        "baseline": 11,
+        "customer": 10,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "other-11.2_77.2",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "other-12.4_76.6",
+      "trips_after": {
+        "baseline": 32,
+        "customer": 28,
+        "proximity": 22
+      }
+    },
+    {
+      "zone_id": "other-12.4_76.8",
+      "trips_after": {
+        "baseline": 25,
+        "customer": 19,
+        "proximity": 19
+      }
+    },
+    {
+      "zone_id": "other-13.0_77.6",
+      "trips_after": {
+        "baseline": 30,
+        "customer": 29,
+        "proximity": 21
+      }
+    },
+    {
+      "zone_id": "other-13.0_77.8",
+      "trips_after": {
+        "baseline": 35,
+        "customer": 30,
+        "proximity": 25
+      }
+    },
+    {
+      "zone_id": "other-13.0_80.2",
+      "trips_after": {
+        "baseline": 19,
+        "customer": 18,
+        "proximity": 14
+      }
+    },
+    {
+      "zone_id": "other-13.0_80.4",
+      "trips_after": {
+        "baseline": 10,
+        "customer": 9,
+        "proximity": 9
+      }
+    },
+    {
+      "zone_id": "other-13.2_77.6",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-13.2_77.8",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 5,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "other-13.2_80.2",
+      "trips_after": {
+        "baseline": 19,
+        "customer": 17,
+        "proximity": 14
+      }
+    },
+    {
+      "zone_id": "other-13.2_80.4",
+      "trips_after": {
+        "baseline": 24,
+        "customer": 19,
+        "proximity": 16
+      }
+    },
+    {
+      "zone_id": "other-15.2_74.0",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "other-15.4_74.0",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-15.6_73.8",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 7,
+        "proximity": 6
+      }
+    },
+    {
+      "zone_id": "other-15.6_74.0",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-17.4_78.4",
+      "trips_after": {
+        "baseline": 28,
+        "customer": 24,
+        "proximity": 19
+      }
+    },
+    {
+      "zone_id": "other-17.4_78.6",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "other-17.6_78.4",
+      "trips_after": {
+        "baseline": 22,
+        "customer": 19,
+        "proximity": 17
+      }
+    },
+    {
+      "zone_id": "other-17.6_78.6",
+      "trips_after": {
+        "baseline": 17,
+        "customer": 14,
+        "proximity": 12
+      }
+    },
+    {
+      "zone_id": "other-18.6_73.8",
+      "trips_after": {
+        "baseline": 20,
+        "customer": 18,
+        "proximity": 15
+      }
+    },
+    {
+      "zone_id": "other-18.6_74.0",
+      "trips_after": {
+        "baseline": 39,
+        "customer": 33,
+        "proximity": 25
+      }
+    },
+    {
+      "zone_id": "other-19.0_72.8",
+      "trips_after": {
+        "baseline": 20,
+        "customer": 17,
+        "proximity": 14
+      }
+    },
+    {
+      "zone_id": "other-19.0_73.0",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "other-19.2_72.8",
+      "trips_after": {
+        "baseline": 24,
+        "customer": 22,
+        "proximity": 17
+      }
+    },
+    {
+      "zone_id": "other-19.2_73.0",
+      "trips_after": {
+        "baseline": 27,
+        "customer": 25,
+        "proximity": 20
+      }
+    },
+    {
+      "zone_id": "other-19.4_72.8",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-19.4_73.0",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 6,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "other-19.8_75.4",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "other-20.0_75.4",
+      "trips_after": {
+        "baseline": 10,
+        "customer": 8,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "other-21.2_72.8",
+      "trips_after": {
+        "baseline": 38,
+        "customer": 32,
+        "proximity": 26
+      }
+    },
+    {
+      "zone_id": "other-21.2_73.0",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 5,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "other-21.4_73.0",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "other-22.4_73.2",
+      "trips_after": {
+        "baseline": 32,
+        "customer": 29,
+        "proximity": 27
+      }
+    },
+    {
+      "zone_id": "other-22.4_73.4",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-22.6_75.8",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "other-22.6_76.0",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-22.6_88.4",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 6,
+        "proximity": 6
+      }
+    },
+    {
+      "zone_id": "other-22.8_75.8",
+      "trips_after": {
+        "baseline": 9,
+        "customer": 8,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "other-22.8_76.0",
+      "trips_after": {
+        "baseline": 45,
+        "customer": 39,
+        "proximity": 28
+      }
+    },
+    {
+      "zone_id": "other-23.2_77.4",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 7,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "other-23.4_77.6",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "other-23.4_85.4",
+      "trips_after": {
+        "baseline": 40,
+        "customer": 36,
+        "proximity": 29
+      }
+    },
+    {
+      "zone_id": "other-23.6_85.4",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "other-25.4_81.8",
+      "trips_after": {
+        "baseline": 4,
+        "customer": 4,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "other-25.4_82.0",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-25.6_82.0",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 6,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "other-26.6_80.4",
+      "trips_after": {
+        "baseline": 9,
+        "customer": 8,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "other-26.8_75.8",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 6,
+        "proximity": 6
+      }
+    },
+    {
+      "zone_id": "other-26.8_76.0",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "other-27.0_75.8",
+      "trips_after": {
+        "baseline": 39,
+        "customer": 32,
+        "proximity": 27
+      }
+    },
+    {
+      "zone_id": "other-27.0_76.0",
+      "trips_after": {
+        "baseline": 16,
+        "customer": 14,
+        "proximity": 11
+      }
+    },
+    {
+      "zone_id": "other-27.2_78.0",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "other-27.2_78.2",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "other-30.4_78.0",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "other-30.4_78.2",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "other-30.6_78.2",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "other-31.0_75.8",
+      "trips_after": {
+        "baseline": 10,
+        "customer": 8,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "other-31.0_76.0",
+      "trips_after": {
+        "baseline": 4,
+        "customer": 4,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "semi-urban-10.2_76.4",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-11.0_77.0",
+      "trips_after": {
+        "baseline": 10,
+        "customer": 9,
+        "proximity": 9
+      }
+    },
+    {
+      "zone_id": "semi-urban-11.2_77.0",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "semi-urban-11.2_77.2",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-12.4_76.6",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 6,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "semi-urban-12.4_76.8",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 8,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "semi-urban-13.0_77.6",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "semi-urban-13.0_77.8",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 6,
+        "proximity": 6
+      }
+    },
+    {
+      "zone_id": "semi-urban-13.0_80.2",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-13.0_80.4",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-13.2_77.6",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-13.2_80.2",
+      "trips_after": {
+        "baseline": 4,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "semi-urban-13.2_80.4",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-15.4_74.0",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-15.6_73.8",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-17.4_78.4",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-17.4_78.6",
+      "trips_after": {
+        "baseline": 4,
+        "customer": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "semi-urban-17.6_78.4",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "semi-urban-17.6_78.6",
+      "trips_after": {
+        "baseline": 4,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "semi-urban-18.6_73.8",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-18.6_74.0",
+      "trips_after": {
+        "baseline": 9,
+        "customer": 9,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "semi-urban-19.0_73.0",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-19.2_72.8",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-19.2_73.0",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-19.4_73.0",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "semi-urban-21.2_72.8",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 6,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "semi-urban-21.4_73.0",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-22.4_73.2",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "semi-urban-22.8_76.0",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 8,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "semi-urban-23.4_77.6",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-23.4_85.4",
+      "trips_after": {
+        "baseline": 13,
+        "customer": 10,
+        "proximity": 10
+      }
+    },
+    {
+      "zone_id": "semi-urban-23.6_85.6",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "semi-urban-25.6_82.0",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-26.6_80.4",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-27.0_75.8",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 4,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "semi-urban-27.0_76.0",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 6,
+        "proximity": 6
+      }
+    },
+    {
+      "zone_id": "semi-urban-27.2_78.2",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "semi-urban-31.0_76.0",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "urban-10.0_76.2",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-10.0_76.4",
+      "trips_after": {
+        "baseline": 20,
+        "customer": 18,
+        "proximity": 16
+      }
+    },
+    {
+      "zone_id": "urban-10.2_76.4",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 6,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-11.0_77.0",
+      "trips_after": {
+        "baseline": 102,
+        "customer": 93,
+        "proximity": 77
+      }
+    },
+    {
+      "zone_id": "urban-11.0_77.2",
+      "trips_after": {
+        "baseline": 4,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-11.2_77.0",
+      "trips_after": {
+        "baseline": 30,
+        "customer": 28,
+        "proximity": 19
+      }
+    },
+    {
+      "zone_id": "urban-11.2_77.2",
+      "trips_after": {
+        "baseline": 28,
+        "customer": 24,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "urban-12.2_76.6",
+      "trips_after": {
+        "baseline": 2,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "urban-12.4_76.6",
+      "trips_after": {
+        "baseline": 85,
+        "customer": 80,
+        "proximity": 66
+      }
+    },
+    {
+      "zone_id": "urban-12.4_76.8",
+      "trips_after": {
+        "baseline": 74,
+        "customer": 67,
+        "proximity": 51
+      }
+    },
+    {
+      "zone_id": "urban-13.0_77.6",
+      "trips_after": {
+        "baseline": 83,
+        "customer": 78,
+        "proximity": 66
+      }
+    },
+    {
+      "zone_id": "urban-13.0_77.8",
+      "trips_after": {
+        "baseline": 72,
+        "customer": 65,
+        "proximity": 51
+      }
+    },
+    {
+      "zone_id": "urban-13.0_80.2",
+      "trips_after": {
+        "baseline": 61,
+        "customer": 57,
+        "proximity": 48
+      }
+    },
+    {
+      "zone_id": "urban-13.0_80.4",
+      "trips_after": {
+        "baseline": 52,
+        "customer": 41,
+        "proximity": 35
+      }
+    },
+    {
+      "zone_id": "urban-13.2_77.6",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 8,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "urban-13.2_77.8",
+      "trips_after": {
+        "baseline": 21,
+        "customer": 17,
+        "proximity": 14
+      }
+    },
+    {
+      "zone_id": "urban-13.2_80.2",
+      "trips_after": {
+        "baseline": 45,
+        "customer": 41,
+        "proximity": 29
+      }
+    },
+    {
+      "zone_id": "urban-13.2_80.4",
+      "trips_after": {
+        "baseline": 66,
+        "customer": 62,
+        "proximity": 48
+      }
+    },
+    {
+      "zone_id": "urban-15.2_74.0",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 7,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "urban-15.4_74.0",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 6,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "urban-15.6_73.8",
+      "trips_after": {
+        "baseline": 22,
+        "customer": 20,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "urban-15.6_74.0",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "urban-15.8_73.8",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "urban-17.4_78.4",
+      "trips_after": {
+        "baseline": 78,
+        "customer": 73,
+        "proximity": 63
+      }
+    },
+    {
+      "zone_id": "urban-17.4_78.6",
+      "trips_after": {
+        "baseline": 32,
+        "customer": 30,
+        "proximity": 26
+      }
+    },
+    {
+      "zone_id": "urban-17.6_78.4",
+      "trips_after": {
+        "baseline": 57,
+        "customer": 48,
+        "proximity": 36
+      }
+    },
+    {
+      "zone_id": "urban-17.6_78.6",
+      "trips_after": {
+        "baseline": 58,
+        "customer": 49,
+        "proximity": 35
+      }
+    },
+    {
+      "zone_id": "urban-18.6_73.8",
+      "trips_after": {
+        "baseline": 79,
+        "customer": 72,
+        "proximity": 54
+      }
+    },
+    {
+      "zone_id": "urban-18.6_74.0",
+      "trips_after": {
+        "baseline": 86,
+        "customer": 81,
+        "proximity": 65
+      }
+    },
+    {
+      "zone_id": "urban-18.8_73.8",
+      "trips_after": {
+        "baseline": 16,
+        "customer": 14,
+        "proximity": 12
+      }
+    },
+    {
+      "zone_id": "urban-18.8_74.0",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 5,
+        "proximity": 5
+      }
+    },
+    {
+      "zone_id": "urban-19.0_72.8",
+      "trips_after": {
+        "baseline": 46,
+        "customer": 37,
+        "proximity": 29
+      }
+    },
+    {
+      "zone_id": "urban-19.0_73.0",
+      "trips_after": {
+        "baseline": 24,
+        "customer": 19,
+        "proximity": 15
+      }
+    },
+    {
+      "zone_id": "urban-19.2_72.8",
+      "trips_after": {
+        "baseline": 69,
+        "customer": 61,
+        "proximity": 50
+      }
+    },
+    {
+      "zone_id": "urban-19.2_73.0",
+      "trips_after": {
+        "baseline": 68,
+        "customer": 58,
+        "proximity": 45
+      }
+    },
+    {
+      "zone_id": "urban-19.4_72.8",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 2,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "urban-19.4_73.0",
+      "trips_after": {
+        "baseline": 28,
+        "customer": 25,
+        "proximity": 19
+      }
+    },
+    {
+      "zone_id": "urban-19.4_73.2",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "urban-19.8_75.4",
+      "trips_after": {
+        "baseline": 7,
+        "customer": 6,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-20.0_75.4",
+      "trips_after": {
+        "baseline": 20,
+        "customer": 19,
+        "proximity": 15
+      }
+    },
+    {
+      "zone_id": "urban-21.2_72.8",
+      "trips_after": {
+        "baseline": 112,
+        "customer": 105,
+        "proximity": 91
+      }
+    },
+    {
+      "zone_id": "urban-21.2_73.0",
+      "trips_after": {
+        "baseline": 29,
+        "customer": 24,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "urban-21.4_73.0",
+      "trips_after": {
+        "baseline": 22,
+        "customer": 21,
+        "proximity": 16
+      }
+    },
+    {
+      "zone_id": "urban-22.4_73.2",
+      "trips_after": {
+        "baseline": 81,
+        "customer": 74,
+        "proximity": 58
+      }
+    },
+    {
+      "zone_id": "urban-22.4_73.4",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-22.6_75.8",
+      "trips_after": {
+        "baseline": 4,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-22.6_76.0",
+      "trips_after": {
+        "baseline": 13,
+        "customer": 11,
+        "proximity": 9
+      }
+    },
+    {
+      "zone_id": "urban-22.6_88.4",
+      "trips_after": {
+        "baseline": 28,
+        "customer": 25,
+        "proximity": 20
+      }
+    },
+    {
+      "zone_id": "urban-22.6_88.6",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-22.8_75.8",
+      "trips_after": {
+        "baseline": 29,
+        "customer": 26,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "urban-22.8_76.0",
+      "trips_after": {
+        "baseline": 109,
+        "customer": 108,
+        "proximity": 90
+      }
+    },
+    {
+      "zone_id": "urban-23.2_77.4",
+      "trips_after": {
+        "baseline": 14,
+        "customer": 14,
+        "proximity": 11
+      }
+    },
+    {
+      "zone_id": "urban-23.2_77.6",
+      "trips_after": {
+        "baseline": 1,
+        "customer": 1,
+        "proximity": 1
+      }
+    },
+    {
+      "zone_id": "urban-23.4_77.4",
+      "trips_after": {
+        "baseline": 12,
+        "customer": 10,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "urban-23.4_77.6",
+      "trips_after": {
+        "baseline": 6,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-23.4_85.4",
+      "trips_after": {
+        "baseline": 106,
+        "customer": 100,
+        "proximity": 83
+      }
+    },
+    {
+      "zone_id": "urban-23.6_85.4",
+      "trips_after": {
+        "baseline": 13,
+        "customer": 12,
+        "proximity": 12
+      }
+    },
+    {
+      "zone_id": "urban-23.6_85.6",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "urban-25.4_81.8",
+      "trips_after": {
+        "baseline": 10,
+        "customer": 9,
+        "proximity": 7
+      }
+    },
+    {
+      "zone_id": "urban-25.4_82.0",
+      "trips_after": {
+        "baseline": 4,
+        "customer": 3,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "urban-25.6_81.8",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 4,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-25.6_82.0",
+      "trips_after": {
+        "baseline": 13,
+        "customer": 13,
+        "proximity": 10
+      }
+    },
+    {
+      "zone_id": "urban-26.4_80.4",
+      "trips_after": {
+        "baseline": 8,
+        "customer": 7,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-26.6_80.4",
+      "trips_after": {
+        "baseline": 24,
+        "customer": 22,
+        "proximity": 18
+      }
+    },
+    {
+      "zone_id": "urban-26.8_75.8",
+      "trips_after": {
+        "baseline": 28,
+        "customer": 25,
+        "proximity": 17
+      }
+    },
+    {
+      "zone_id": "urban-26.8_76.0",
+      "trips_after": {
+        "baseline": 11,
+        "customer": 8,
+        "proximity": 8
+      }
+    },
+    {
+      "zone_id": "urban-27.0_75.8",
+      "trips_after": {
+        "baseline": 104,
+        "customer": 101,
+        "proximity": 84
+      }
+    },
+    {
+      "zone_id": "urban-27.0_76.0",
+      "trips_after": {
+        "baseline": 36,
+        "customer": 29,
+        "proximity": 24
+      }
+    },
+    {
+      "zone_id": "urban-27.2_78.0",
+      "trips_after": {
+        "baseline": 18,
+        "customer": 16,
+        "proximity": 11
+      }
+    },
+    {
+      "zone_id": "urban-27.2_78.2",
+      "trips_after": {
+        "baseline": 15,
+        "customer": 14,
+        "proximity": 12
+      }
+    },
+    {
+      "zone_id": "urban-27.4_78.2",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-30.4_78.0",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 5,
+        "proximity": 4
+      }
+    },
+    {
+      "zone_id": "urban-30.4_78.2",
+      "trips_after": {
+        "baseline": 15,
+        "customer": 13,
+        "proximity": 11
+      }
+    },
+    {
+      "zone_id": "urban-30.6_78.2",
+      "trips_after": {
+        "baseline": 5,
+        "customer": 4,
+        "proximity": 3
+      }
+    },
+    {
+      "zone_id": "urban-30.8_75.8",
+      "trips_after": {
+        "baseline": 3,
+        "customer": 3,
+        "proximity": 2
+      }
+    },
+    {
+      "zone_id": "urban-31.0_75.8",
+      "trips_after": {
+        "baseline": 19,
+        "customer": 17,
+        "proximity": 15
+      }
+    },
+    {
+      "zone_id": "urban-31.0_76.0",
+      "trips_after": {
+        "baseline": 10,
+        "customer": 9,
+        "proximity": 8
+      }
+    }
+  ],
+  "generated_at": "2026-07-21T20:26:03.145630+00:00",
   "data_source_note": "Delivery locations and volumes are real (Kaggle Amazon Delivery Dataset, sujalsuthar/amazon-delivery-dataset). Return linkage is a labeled assumption, not observed data."
 }

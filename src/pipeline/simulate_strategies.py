@@ -45,17 +45,25 @@ import pandas as pd
 
 from src import config
 
+STRATEGY_NAMES = ("baseline", "customer", "proximity")
+
 
 def _cost_and_distance_per_route(avg_trip_distance_km: pd.Series):
     cost = config.FIXED_COST_PER_TRIP_INR + config.COST_PER_KM_INR * avg_trip_distance_km
     return cost, avg_trip_distance_km
 
 
-def simulate_strategies(
+def _simulate_rows(
     clusters_with_returns: pd.DataFrame,
-    customer_link_rate: float = config.CUSTOMER_LINK_RATE,
-    seed: int = config.RANDOM_SEED,
-) -> dict:
+    customer_link_rate: float,
+    seed: int,
+) -> pd.DataFrame:
+    """Per zone/day trips_before and trips_after_<strategy> columns.
+
+    Shared by both the aggregate strategy totals and the per-zone
+    breakdown, so the map's zone-level numbers and the KPI cards' global
+    totals always come from the same underlying simulation.
+    """
     d = clusters_with_returns.copy()
     D = d["deliveries"]
     R = d["returns_simulated"]
@@ -70,20 +78,31 @@ def simulate_strategies(
     rng = np.random.default_rng(seed)
     customer_mergeable = rng.binomial(proximity_mergeable.to_numpy(), customer_link_rate)
 
-    per_route_cost, per_route_distance = _cost_and_distance_per_route(d["avg_trip_distance_km"])
-
-    strategies = {}
     mergeable_by_strategy = {
         "baseline": pd.Series(0, index=d.index),
-        "customer": customer_mergeable,
+        "customer": pd.Series(customer_mergeable, index=d.index),
         "proximity": proximity_mergeable,
     }
     for name, mergeable in mergeable_by_strategy.items():
         remaining_returns = R - mergeable
         return_routes_after = np.ceil(remaining_returns / cap).astype(int)
-        trips_after = delivery_routes + return_routes_after
-        trips_saved = d["trips_before"] - trips_after
+        d[f"trips_after_{name}"] = delivery_routes + return_routes_after
 
+    return d
+
+
+def simulate_strategies(
+    clusters_with_returns: pd.DataFrame,
+    customer_link_rate: float = config.CUSTOMER_LINK_RATE,
+    seed: int = config.RANDOM_SEED,
+) -> dict:
+    d = _simulate_rows(clusters_with_returns, customer_link_rate, seed)
+    per_route_cost, per_route_distance = _cost_and_distance_per_route(d["avg_trip_distance_km"])
+
+    strategies = {}
+    for name in STRATEGY_NAMES:
+        trips_after = d[f"trips_after_{name}"]
+        trips_saved = d["trips_before"] - trips_after
         strategies[name] = {
             "trips_before": int(d["trips_before"].sum()),
             "trips_after": int(trips_after.sum()),
@@ -92,3 +111,21 @@ def simulate_strategies(
         }
 
     return strategies
+
+
+def compute_zone_strategy_breakdown(
+    clusters_with_returns: pd.DataFrame,
+    customer_link_rate: float = config.CUSTOMER_LINK_RATE,
+    seed: int = config.RANDOM_SEED,
+) -> pd.DataFrame:
+    """Per-zone (summed across all dates) trips_after under each strategy.
+
+    Lets the map itself visually react to the strategy toggle, not just
+    the aggregate KPI cards. Keyed by zone_id so the frontend can join
+    this against its own zone_id rollup of clusters.json (lat/lng/
+    deliveries/returns_simulated) without the pipeline needing to repeat
+    that geography.
+    """
+    d = _simulate_rows(clusters_with_returns, customer_link_rate, seed)
+    trips_after_cols = [f"trips_after_{name}" for name in STRATEGY_NAMES]
+    return d.groupby("zone_id")[trips_after_cols].sum().reset_index()

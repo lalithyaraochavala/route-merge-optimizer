@@ -9,7 +9,7 @@ from src.pipeline.export_json import export_clusters, export_results
 from src.pipeline.geo_clusters import compute_clusters
 from src.pipeline.return_overlap import apply_return_overlap
 from src.pipeline.sensitivity import compute_customer_link_sensitivity, compute_sensitivity
-from src.pipeline.simulate_strategies import simulate_strategies
+from src.pipeline.simulate_strategies import compute_zone_strategy_breakdown, simulate_strategies
 
 
 def main():
@@ -26,8 +26,10 @@ def main():
     strategies = simulate_strategies(clusters_with_returns)
     sensitivity = compute_sensitivity(clusters)
     customer_link_sensitivity = compute_customer_link_sensitivity(clusters)
-    export_results(strategies, sensitivity, customer_link_sensitivity)
+    zone_strategies = compute_zone_strategy_breakdown(clusters_with_returns)
+    export_results(strategies, sensitivity, customer_link_sensitivity, zone_strategies)
     print(f"wrote {config.RESULTS_OUTPUT_PATH}")
+    print(f"  zone_strategies rows: {len(zone_strategies)}")
 
     for name, s in strategies.items():
         saved = s["trips_before"] - s["trips_after"]

@@ -51,3 +51,32 @@ instead of rounding the same fraction identically across every row. The
 sweep now moves smoothly — 333 → 581 → 895 — because ~3,000 independent
 draws average out instead of thousands of identical rows crossing a
 rounding boundary in lockstep.
+
+### `results.json` schema deviation: `zone_strategies`
+
+Doc 05's `results.json` only specifies aggregate strategy totals — one
+number per strategy, dataset-wide. That's enough for the KPI cards, but
+it means the map (which renders `clusters.json`'s per-zone data) has no
+way to visually react to the strategy toggle: there's no per-zone
+"how many trips does this zone need under the customer/proximity
+strategy" figure to drive marker size against.
+
+`results.json` now also includes `zone_strategies`: for every `zone_id`,
+`trips_after` under each of the three strategies, summed across all
+dates for that zone (the same zone_id grouping the map already uses when
+it rolls clusters.json's per zone/day rows up to one marker per zone).
+Deliberately keyed by `zone_id` only, with no lat/lng/deliveries
+duplicated — the frontend joins this against its own `zone_id` rollup of
+`clusters.json` rather than the pipeline repeating that geography in two
+places. `strategies` (the aggregate totals) is unchanged; this is
+additive.
+
+```json
+"zone_strategies": [
+  {
+    "zone_id": string,
+    "trips_after": { "baseline": number, "customer": number, "proximity": number }
+  },
+  ...
+]
+```

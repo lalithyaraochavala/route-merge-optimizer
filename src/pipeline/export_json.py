@@ -1,9 +1,11 @@
 """Write clusters.json and results.json.
 
-results.json follows doc 05's schema with one deliberate addition:
-`customer_link_sensitivity`, a second one-dimensional sweep alongside the
-originally-specified `sensitivity` array. See the README methodology
-section for why.
+results.json follows doc 05's schema with two deliberate additions:
+`customer_link_sensitivity` (a second one-dimensional sweep alongside the
+originally-specified `sensitivity` array) and `zone_strategies` (per-zone
+trips_after under each strategy, so the map can react to the strategy
+toggle instead of only the aggregate KPI cards). See the README
+methodology section for why.
 """
 
 import json
@@ -31,12 +33,26 @@ def export_results(
     strategies: dict,
     sensitivity: list[dict],
     customer_link_sensitivity: list[dict],
+    zone_strategies: pd.DataFrame,
     path: str = config.RESULTS_OUTPUT_PATH,
 ):
+    zone_strategies_records = [
+        {
+            "zone_id": row.zone_id,
+            "trips_after": {
+                "baseline": int(row.trips_after_baseline),
+                "customer": int(row.trips_after_customer),
+                "proximity": int(row.trips_after_proximity),
+            },
+        }
+        for row in zone_strategies.itertuples()
+    ]
+
     payload = {
         "strategies": strategies,
         "sensitivity": sensitivity,
         "customer_link_sensitivity": customer_link_sensitivity,
+        "zone_strategies": zone_strategies_records,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "data_source_note": config.DATA_SOURCE_NOTE,
     }
