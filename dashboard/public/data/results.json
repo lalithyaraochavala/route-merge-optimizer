@@ -1,38 +1,52 @@
 {
   "strategies": {
     "baseline": {
-      "trips_before": 50003,
-      "trips_after": 50003,
+      "trips_before": 8548,
+      "trips_after": 8548,
       "cost_saved": 0.0,
       "distance_saved_km": 0.0
     },
     "customer": {
-      "trips_before": 50003,
-      "trips_after": 45336,
-      "cost_saved": 351105.29,
-      "distance_saved_km": 31293.4
+      "trips_before": 8548,
+      "trips_after": 7967,
+      "cost_saved": 57631.49,
+      "distance_saved_km": 6216.1
     },
     "proximity": {
-      "trips_before": 50003,
-      "trips_after": 40046,
-      "cost_saved": 753789.91,
-      "distance_saved_km": 67549.2
+      "trips_before": 8548,
+      "trips_after": 6944,
+      "cost_saved": 158845.42,
+      "distance_saved_km": 17117.6
     }
   },
   "sensitivity": [
     {
       "overlap_rate": 0.15,
-      "trips_saved": 5982
+      "trips_saved": 1371
     },
     {
       "overlap_rate": 0.25,
-      "trips_saved": 9957
+      "trips_saved": 1604
     },
     {
       "overlap_rate": 0.35,
-      "trips_saved": 13919
+      "trips_saved": 1750
     }
   ],
-  "generated_at": "2026-07-21T19:32:49.675609+00:00",
+  "customer_link_sensitivity": [
+    {
+      "customer_link_rate": 0.3,
+      "trips_saved": 333
+    },
+    {
+      "customer_link_rate": 0.5,
+      "trips_saved": 581
+    },
+    {
+      "customer_link_rate": 0.7,
+      "trips_saved": 895
+    }
+  ],
+  "generated_at": "2026-07-21T20:07:35.271842+00:00",
   "data_source_note": "Delivery locations and volumes are real (Kaggle Amazon Delivery Dataset, sujalsuthar/amazon-delivery-dataset). Return linkage is a labeled assumption, not observed data."
 }

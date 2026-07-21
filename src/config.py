@@ -26,18 +26,26 @@ SENSITIVITY_OVERLAP_RATES = [0.15, 0.25, 0.35]
 # Of the delivery/return pairs that share a zone and day (proximity-mergeable),
 # only some plausibly belong to the *same customer* (a stricter condition).
 # This fraction converts "same-area" merge opportunities into the smaller
-# "same-customer" merge opportunity set.
+# "same-customer" merge opportunity set. Equally unobserved as overlap_rate
+# above, so it gets the same sensitivity-sweep treatment (see
+# CUSTOMER_LINK_SENSITIVITY_RATES) rather than sitting as a silent constant
+# behind the "customer" strategy's headline number.
 CUSTOMER_LINK_RATE = 0.5
+CUSTOMER_LINK_SENSITIVITY_RATES = [0.3, 0.5, 0.7]
+
+# --- Route batching ---
+# Carriers already batch same-zone/day deliveries into multi-stop routes
+# rather than dispatching one vehicle per delivery. A route holds up to
+# this many stops. Returns are dispatched as their own batched route(s) at
+# baseline; the merge strategies instead slot returns into unused capacity
+# on the delivery routes already going to that zone.
+ROUTE_CAPACITY = 10
 
 # --- Cost model ---
-# Fixed dispatch overhead per independent trip (rider time, handling), INR.
+# Fixed dispatch overhead per route (rider time, handling), INR.
 FIXED_COST_PER_TRIP_INR = 35.0
 # Variable cost per km driven, INR.
 COST_PER_KM_INR = 6.0
-# A merged 2-stop trip travels more than a 1-stop trip but less than two
-# separate trips combined. 1.3 means the merged trip's distance is 130% of
-# a single-stop trip's distance (i.e. a 30% detour to add the second stop).
-MERGE_DETOUR_FACTOR = 1.3
 
 RANDOM_SEED = 42
 

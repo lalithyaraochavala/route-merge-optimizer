@@ -1,4 +1,10 @@
-"""Write clusters.json and results.json in the exact schema from doc 05."""
+"""Write clusters.json and results.json.
+
+results.json follows doc 05's schema with one deliberate addition:
+`customer_link_sensitivity`, a second one-dimensional sweep alongside the
+originally-specified `sensitivity` array. See the README methodology
+section for why.
+"""
 
 import json
 from datetime import datetime, timezone
@@ -21,10 +27,16 @@ def export_clusters(clusters_with_returns: pd.DataFrame, path: str = config.CLUS
         json.dump(records.to_dict(orient="records"), f, indent=2)
 
 
-def export_results(strategies: dict, sensitivity: list[dict], path: str = config.RESULTS_OUTPUT_PATH):
+def export_results(
+    strategies: dict,
+    sensitivity: list[dict],
+    customer_link_sensitivity: list[dict],
+    path: str = config.RESULTS_OUTPUT_PATH,
+):
     payload = {
         "strategies": strategies,
         "sensitivity": sensitivity,
+        "customer_link_sensitivity": customer_link_sensitivity,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "data_source_note": config.DATA_SOURCE_NOTE,
     }

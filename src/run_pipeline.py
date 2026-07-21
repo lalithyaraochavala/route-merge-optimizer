@@ -8,7 +8,7 @@ from src.pipeline.clean_data import load_and_clean
 from src.pipeline.export_json import export_clusters, export_results
 from src.pipeline.geo_clusters import compute_clusters
 from src.pipeline.return_overlap import apply_return_overlap
-from src.pipeline.sensitivity import compute_sensitivity
+from src.pipeline.sensitivity import compute_customer_link_sensitivity, compute_sensitivity
 from src.pipeline.simulate_strategies import simulate_strategies
 
 
@@ -25,7 +25,8 @@ def main():
 
     strategies = simulate_strategies(clusters_with_returns)
     sensitivity = compute_sensitivity(clusters)
-    export_results(strategies, sensitivity)
+    customer_link_sensitivity = compute_customer_link_sensitivity(clusters)
+    export_results(strategies, sensitivity, customer_link_sensitivity)
     print(f"wrote {config.RESULTS_OUTPUT_PATH}")
 
     for name, s in strategies.items():
