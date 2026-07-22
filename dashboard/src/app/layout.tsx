@@ -20,10 +20,36 @@ const ibmPlexMono = IBM_Plex_Mono({
   weight: ["400", "500", "600"],
 });
 
+// Vercel sets VERCEL_PROJECT_PRODUCTION_URL / VERCEL_URL automatically at
+// build time, so OG image URLs resolve to absolute URLs with zero manual
+// config. NEXT_PUBLIC_SITE_URL is an optional override for a custom domain.
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000");
+
+const title = "Route Merge Optimizer";
+const description =
+  "A data-driven case study testing whether merging same-day delivery + return trips cuts last-mile logistics waste.";
+
 export const metadata: Metadata = {
-  title: "Route Merge Optimizer",
-  description:
-    "A data-driven case study testing whether merging same-day delivery + return trips cuts last-mile logistics waste.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    type: "website",
+    siteName: title,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({
